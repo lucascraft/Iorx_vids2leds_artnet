@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 42.0, 85.0, 1246.0, 969.0 ],
+		"rect" : [ -1886.0, 77.0, 1852.0, 969.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,135 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "jit.pwindow",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 913.0, 205.0, 160.0, 120.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 20.0, 220.0, 160.0, 120.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-11",
+					"maxclass" : "jit.fpsgui",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 859.0, 378.0, 80.0, 36.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 20.0, 393.0, 80.0, 36.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-12",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 864.0, 91.0, 90.0, 23.0 ],
+					"style" : "",
+					"text" : "prepend read"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "playbar",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "int" ],
+					"patching_rect" : [ 890.0, 122.0, 306.0, 23.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 51.0, 137.0, 306.0, 23.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-14",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "jit_matrix", "" ],
+					"patching_rect" : [ 859.0, 158.5, 124.0, 23.0 ],
+					"style" : "",
+					"text" : "jit.qt.movie @vol 0."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-15",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 864.0, 26.0, 70.0, 23.0 ],
+					"style" : "",
+					"text" : "prefix d:/vj"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"autopopulate" : 1,
+					"id" : "obj-16",
+					"items" : [ "24K (loop).mp4", ",", "70´s Retro Lines Free Vj Loop.mp4", ",", "Abstract - 12902.mp4", ",", "Abstract Infinite Stream __ 10 Seconds Free Vj Loop.mp4", ",", "ANGULAR (loop).mp4", ",", "Another boring tunnel __ Free Vj Loop.mp4", ",", "Another boring-forgotten cloud commercial from 1982.mp4", ",", "batham (loop).mp4", ",", "bitsweep.mp4", ",", "blueblock2.mp4", ",", "box color.mov", ",", "BOX_BEAT (125BPM loop).mp4", ",", "brainfeeder_beeple-vjclips", ",", "BURSTTT (128bpm loop).mp4", ",", "busy textures 2.mp4", ",", "camdform.mp4", ",", "chromed out.object_x8_under.construction.mp4", ",", "Color Party Free Vj Loop.mp4", ",", "complex circle Free Vj Loop.mp4", ",", "config_artnet_full_16.madart", ",", "cruise (control).mp4", ",", "cryspace (loop).mp4", ",", "crystal crap (loop).mp4", ",", "Crystal Stream Free Vj Loop.mp4", ",", "crystals1.blend", ",", "crystals2.blend", ",", "Dark Noise Free Vj Loop.mp4", ",", "darknet (loop).mp4", ",", "dead.CENTERED_23 (v.1).mp4", ",", "demo1.mad", ",", "deodorant.mp4", ",", "Details of  a starry night __  Free Vj Loop.mp4", ",", "domeshards (110BPM loop).mp4", ",", "Dot Matrix __ Free Vj Loop.mp4", ",", "drippings.mp4", ",", "dump1.pcapng", ",", "dumserum.mp4", ",", "Electric Geometric Panorama Free Vj Loop.mp4", ",", "ellctor (loop).mp4", ",", "Embers - 8625.mp4", ",", "Emergence illusion Free Vj Loop.mp4", ",", "endless planet.mp4", ",", "f.works.mp4", ",", "Fake Crystals Free Vj Loop.mp4", ",", "Fake Lighting Free VJ Loop.mp4", ",", "Feathers Free Vj Loop.mp4", ",", "Fiber Energy 4K Free Vj Loop.mp4", ",", "fields remix.mp4", ",", "FIYAH.BLOBS (loop).mp4", ",", "Flight over Mars, Free Vj Loop.mp4", ",", "Fractal Impression Free VJ Loop.mp4", ",", "frankenstyle..mp4", ",", "Free Vj Loop __ Sentinel II.mp4", ",", "Free VJ LoOp __ Tear the Filaments Apart.mp4", ",", "Free Vj Loop City Blocks.mp4", ",", "Free Vj Loop Electric Panel.mp4", ",", "Free VJ Loop impulse.mp4", ",", "Free Vj Loop Noise Field 2.mp4", ",", "Free Vj Loop Vertex Noise.mp4", ",", "frustrated_slimeball.heart.mp4", ",", "GLASS VEIN.mp4", ",", "glowdome.mp4", ",", "gravitated.components part III (loop).mp4", ",", "Height Maps Free Vj Loop.mp4", ",", "Hexagons Panel Free Vj Loop.mp4", ",", "HOTBOXXX (128bpm loop).mp4", ",", "imp.artnetV1_0Beta.zip", ",", "Impactful.vigilance [v.1] [loop].mp4", ",", "Inferno __ Free Vj Loop.mp4", ",", "kewbic flow (loop).mp4", ",", "KOLL.mp4", ",", "Lava Tunnel __ 1 minute Free Vj Loop.mp4", ",", "lightgrid (loop).mp4", ",", "Lights - 13306.mp4", ",", "Linebrights Galore (loop).mp4", ",", "LOL.OMG.FML _ (V.2).mp4", ",", "mantissa.xyz_loop_015.mp4", ",", "mantissa.xyz_loop_016.mp4", ",", "mantissa.xyz_loop_017.mp4", ",", "mantissa.xyz_loop_019.mp4", ",", "mantissa.xyz_loop_023.mp4", ",", "mantissa.xyz_loop_025.mp4", ",", "mantissa.xyz_loop_045.mp4", ",", "mantissa.xyz_loop_046.mp4", ",", "mantissa.xyz_loop_047.mp4", ",", "mantissa.xyz_loop_048.mp4", ",", "mantissa.xyz_loop_060.mp4", ",", "mantissa.xyz_loop_062.mp4", ",", "mantissa.xyz_loop_065.mp4", ",", "mantissa.xyz_loop_066.mp4", ",", "mars rover (loop).mp4", ",", "moar.mp4", ",", "multi sphere Free Vj Loop.mp4", ",", "neon need 1.mp4", ",", "neon need 2.mp4", ",", "neon need 3.mp4", ",", "neon need 4.mp4", ",", "neon need 5.mp4", ",", "neon need 6.mp4", ",", "neon need 7.mp4", ",", "neon need 8.mp4", ",", "Noise Field __ Free Vj Loop.mp4", ",", "Noise Overlapping.mp4", ",", "Nu.fiyaaa_5000 (loop).mp4", ",", "Optical Distortion Free Vj Loop.mp4", ",", "orange neural net.mp4", ",", "Organic Tunnel __ Free Vj Loop(1).mp4", ",", "Organic Tunnel __ Free Vj Loop.mp4", ",", "p-crawl (loop).mp4", ",", "PAINT PARTY LOOP.mp4", ",", "par36LRGB.mad", ",", "Particles - 6436.mp4", ",", "pink vynil (loop).mp4", ",", "Plasma Ball - 11414.mp4", ",", "plugslower.mp4", ",", "Powerful.isolated_temple of glow_5000 (loop).mp4", ",", "poxels (loop).mp4", ",", "proxdisp.mp4", ",", "purehotness.mp4", ",", "Radial Tunnel Turntable Free Vj Loop.mp4", ",", "Rain Free VJ Loop.mp4", ",", "rebalance (loop).mp4", ",", "Retro Loop __ Vj Loop.mp4", ",", "Rib.caged.mp4", ",", "risus.mp4", ",", "RMX™ (loop).mp4", ",", "rolling.mp4", ",", "sart (loop).mp4", ",", "scream.mp4", ",", "shiney floaty pills.mp4", ",", "smoke four.mp4", ",", "Smooth Crystals Free Vj Loop.mp4", ",", "Smooth Threads Free Vj Loop.mp4", ",", "Smooth wave Free Vj Loop.mp4", ",", "snowflake_array.mov", ",", "Space Travel - 5.mp4", ",", "spet (loop).mp4", ",", "Spikes Pattern Free Vj Loop.mp4", ",", "splick.mp4", ",", "Squares - 1200.mp4", ",", "sqwarcycle.mp4", ",", "stankyshit.mp4", ",", "Starsphereship_panic-race.5000.mp4", ",", "stream.mp4", ",", "subspace.mp4", ",", "TAO.mp4", ",", "tech.fux (loop).mp4", ",", "Tesseract Free Vj Loop.mp4", ",", "test_ledStrip_par56.mad", ",", "test_ledStrip_par56_cues-artnet-2.mad", ",", "test_ledStrip_par56_cues-artnet.mad", ",", "test_ledStrip_par56_cues.mad", ",", "test_ledStrip_ws2811_16x.mad", ",", "THE EYE 2 FREE WEIRD VJ LOOP.mp4", ",", "There´s something in there __ Free Vj Loop.mp4", ",", "thinking bubs.mp4", ",", "Top palatine-property view_7000.mp4", ",", "tracerfaun.mp4", ",", "Tru.neonz (loop).mp4", ",", "tunnal.mp4", ",", "Tunnel Delirium Free Vj Loop.mp4", ",", "turbulent.flow.mp4", ",", "uncontrolled_algorithm-boogie.7 (loop).mp4", ",", "undermeta-b.mp4", ",", "Untitled_powerful.universal.developments.mp4", ",", "Vectorius_01_DXV", ",", "voronoi", ",", "voronoi-wave.skp", ",", "Warm Fight Free Vj Loop.mp4", ",", "warm neon birth.mp4", ",", "waterbox (loop).mp4", ",", "WATERMELLA.Boogie (loop).mp4", ",", "Waves Free Vj Loop.mp4", ",", "Weitermachen [keep going].mp4", ",", "WICKED.BACK.9.mp4", ",", "WINTER FEELS (loop).mp4", ",", "World - 1992.mp4", ",", "wreked (loop).mp4" ],
+					"maxclass" : "umenu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 864.0, 60.0, 153.0, 22.0 ],
+					"prefix" : "d:/vj/",
+					"presentation" : 1,
+					"presentation_rect" : [ 25.0, 75.0, 153.0, 22.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation" : "## Smoothly crossfade between two videos and their composite ##",
+					"bgmode" : 1,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-6",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "vz.mixfadr.maxpat",
+					"numinlets" : 4,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "jit_matrix" ],
+					"patching_rect" : [ 495.5, 205.0, 168.0, 130.0 ],
+					"varname" : "mixfadr",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-9",
 					"maxclass" : "jit.pwindow",
@@ -119,7 +248,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 601.0, 118.0, 912.0, 843.0 ],
+						"rect" : [ 854.0, 116.0, 912.0, 843.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -146,7 +275,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -254,7 +382,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "jit_matrix" ],
 									"patching_rect" : [ 182.0, 5.0, 30.0, 30.0 ],
 									"style" : ""
 								}
@@ -685,6 +813,24 @@
 							}
 , 							{
 								"name" : "Pipilan",
+								"number" : 								{
+									"fontname" : [ "Arial" ],
+									"bgcolor" : [ 0.92813, 1.0, 0.977918, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontsize" : [ 12.0 ]
+								}
+,
+								"multislider" : 								{
+									"bgcolor" : [ 0.92813, 1.0, 0.977918, 1.0 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ]
+								}
+,
+								"umenu" : 								{
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ]
+								}
+,
 								"default" : 								{
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgfillcolor" : 									{
@@ -697,24 +843,6 @@
 										"autogradient" : 0
 									}
 ,
-									"color" : [ 0.0, 0.0, 0.0, 1.0 ]
-								}
-,
-								"number" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontsize" : [ 12.0 ],
-									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontname" : [ "Arial" ],
-									"bgcolor" : [ 0.92813, 1.0, 0.977918, 1.0 ]
-								}
-,
-								"umenu" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"color" : [ 0.0, 0.0, 0.0, 1.0 ]
-								}
-,
-								"multislider" : 								{
-									"bgcolor" : [ 0.92813, 1.0, 0.977918, 1.0 ],
 									"color" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
@@ -769,7 +897,7 @@
 					"presentation_rect" : [ 456.0, 679.5, 186.0, 79.0 ],
 					"setminmax" : [ 0.0, 255.0 ],
 					"setstyle" : 1,
-					"size" : 66,
+					"size" : 732,
 					"style" : ""
 				}
 
@@ -919,7 +1047,7 @@
 									"patching_rect" : [ 50.0, 100.0, 260.0, 100.0 ],
 									"setminmax" : [ 0.0, 255.0 ],
 									"setstyle" : 1,
-									"size" : 66,
+									"size" : 732,
 									"style" : ""
 								}
 
@@ -1123,6 +1251,57 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"order" : 0,
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 1 ],
+					"order" : 1,
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"source" : [ "obj-16", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"order" : 0,
 					"source" : [ "obj-3", 0 ]
@@ -1169,6 +1348,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-80", 0 ],
 					"source" : [ "obj-74", 0 ]
 				}
@@ -1183,16 +1369,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
-					"order" : 0,
-					"source" : [ "obj-84", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-90", 0 ],
-					"order" : 1,
 					"source" : [ "obj-84", 0 ]
 				}
 
@@ -1213,14 +1390,28 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"order" : 1,
+					"source" : [ "obj-88", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-84", 0 ],
+					"order" : 0,
 					"source" : [ "obj-88", 0 ]
 				}
 
 			}
  ],
 		"parameters" : 		{
-			"obj-4" : [ "slider", "slider", 0 ]
+			"obj-4" : [ "slider", "slider", 0 ],
+			"obj-6::obj-39" : [ "umenu[10]", "umenu", 0 ],
+			"obj-6::obj-51" : [ "pictctrl[47]", "pictctrl[1]", 0 ],
+			"obj-6::obj-21" : [ "range[3]", "range", 0 ],
+			"obj-6::obj-26" : [ "crossfade", "crossfade", 0 ],
+			"obj-6::obj-24" : [ "pictctrl[1]", "pictctrl[1]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -1231,7 +1422,29 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "vz.mixfadr.maxpat",
+				"bootpath" : "C74:/packages/vizzie/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "data-handler.maxpat",
+				"bootpath" : "C74:/packages/vizzie/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "video-handler.maxpat",
+				"bootpath" : "C74:/packages/vizzie/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "imp.artnet.controller.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "jit.pass.mxe64",
 				"type" : "mx64"
 			}
  ],
@@ -1274,6 +1487,24 @@
 			}
 , 			{
 				"name" : "Pipilan",
+				"number" : 				{
+					"fontname" : [ "Arial" ],
+					"bgcolor" : [ 0.92813, 1.0, 0.977918, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontsize" : [ 12.0 ]
+				}
+,
+				"multislider" : 				{
+					"bgcolor" : [ 0.92813, 1.0, 0.977918, 1.0 ],
+					"color" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"umenu" : 				{
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"color" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+,
 				"default" : 				{
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgfillcolor" : 					{
@@ -1286,24 +1517,6 @@
 						"autogradient" : 0
 					}
 ,
-					"color" : [ 0.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"number" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontsize" : [ 12.0 ],
-					"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : [ "Arial" ],
-					"bgcolor" : [ 0.92813, 1.0, 0.977918, 1.0 ]
-				}
-,
-				"umenu" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"color" : [ 0.0, 0.0, 0.0, 1.0 ]
-				}
-,
-				"multislider" : 				{
-					"bgcolor" : [ 0.92813, 1.0, 0.977918, 1.0 ],
 					"color" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
