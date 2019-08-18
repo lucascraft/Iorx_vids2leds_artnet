@@ -1,0 +1,40 @@
+{
+	"author" : "Masato Tsutsui",
+	"authors" : [  ],
+	"categories" : [  ],
+	"description" : "A collection of audio-responsive OpenGL rendering patches from visuals master Masato Tsutsui. Clap your hands after launching.\nProgrammed by Masato TSUTSUI (http://adsr.jp)\nFounder of Arque Inc. (http://arque.jp)",
+	"displayname" : "",
+	"extends" : "",
+	"extensible" : 0,
+	"homepatcher" : "_adsr221.maxpat",
+	"max_version_max" : "none",
+	"max_version_min" : "6.1",
+	"name" : "adsr221",
+	"os" : 	{
+		"macintosh" : 		{
+			"platform" : [ "ia32", "x64" ],
+			"min_version" : "10.7.x"
+		}
+,
+		"windows" : 		{
+			"platform" : [ "ia32", "x64" ],
+			"min_version" : "7"
+		}
+
+	}
+,
+	"readme" : "",
+	"tags" : [ "jitter", "openGL", "visuals", "graphics" ],
+	"version" : "0.0.2",
+	"versions" : null,
+	"website" : "http://adsr.jp",
+	"filelist" : 	{
+		"patchers" : [ "mai_planet_a.maxpat", "mai_planet_b.maxpat", "mgr.maxpat", "mtb.maxpat", "p_around.maxpat", "p_spring.maxpat", "p_spring2.maxpat", "par.maxpat", "vibgyor.maxpat" ],
+		"media" : [ "mat.gooch221.jxs" ],
+		"javascript" : [ "spring.js" ],
+		"extras" : [ "_adsr221.maxpat" ]
+	}
+,
+	"c74install" : 1,
+	"installdate" : 3648971673
+}
