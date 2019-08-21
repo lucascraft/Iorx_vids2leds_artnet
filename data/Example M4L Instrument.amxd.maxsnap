@@ -1,0 +1,35 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "Example M4L Instrument.amxd",
+	"origin" : "Example M4L Instrument.amxd",
+	"type" : "amxd",
+	"subtype" : "Undefined",
+	"embed" : 0,
+	"snapshot" : 	{
+		"name" : "Example M4L Instrument.amxd",
+		"origname" : "C74:/packages/Beap/examples/Synthesis Examples/Example M4L Instrument.amxd",
+		"valuedictionary" : 		{
+			"parameter_values" : 			{
+				"BendRange" : 2.0,
+				"Bypass[4]" : 0.0,
+				"CV2" : 0.0,
+				"CV3" : 0.0,
+				"Fatness" : 0.7,
+				"Freq" : 0.6,
+				"Linear" : 0.0,
+				"Mute" : 0.0,
+				"Offset[2]" : 0.0,
+				"Quadrants" : 0.0,
+				"Response" : 0.0,
+				"Waveform" : 0.0,
+				"live.text" : 0.0,
+				"TimeMode" : 1.0
+			}
+
+		}
+
+	}
+
+}
