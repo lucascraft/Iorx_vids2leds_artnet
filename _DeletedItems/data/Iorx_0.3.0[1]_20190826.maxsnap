@@ -1,0 +1,39 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "Iorx_0.3.0[1]",
+	"origin" : "Iorx_0.5.0",
+	"type" : "patcher",
+	"subtype" : "Undefined",
+	"embed" : 0,
+	"snapshot" : 	{
+		"valuedictionary" : 		{
+			"parameter_values" : 			{
+				"crossfade" : 0.676378,
+				"pictctrl[1]" : 1.0,
+				"pictctrl[47]" : 1.0,
+				"pictctrl[57]" : 1.0,
+				"pictctrl[58]" : 1.0,
+				"pictctrl[59]" : 1.0,
+				"pictctrl[60]" : 1.0,
+				"rotation" : 45.0,
+				"umenu[10]" : 12.0,
+				"umenu[12]" : 1.0,
+				"x offset[1]" : 0.0,
+				"y offset[1]" : 0.0,
+				"blob" : 				{
+					"range[3]" : [ 1 ],
+					"range[4]" : [ 1 ],
+					"slider" : [ 11 ],
+					"slider[1]" : [ 7 ],
+					"slider[2]" : [ 29 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
